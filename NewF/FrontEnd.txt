@@ -1,3 +1,7 @@
 Massage for frontend developer
 
+<<<<<<< HEAD
 New content Create conflict
+=======
+Conflict Test two
+>>>>>>> 1f34f42a5f5efd2dc712130f9453626771af8b55
