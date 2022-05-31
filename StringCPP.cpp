@@ -8,7 +8,7 @@ int main() {
     // return 0;
     char myName[] = "Truong Manh Khoi";
     std::cout << myName << std::endl;
-    myName[11] = '\0';
+    myName[11] = 0;
     std::cout << myName << std::endl;
     return 0;
 }
