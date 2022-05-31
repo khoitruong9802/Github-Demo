@@ -1,5 +1,24 @@
 #include <iostream>
 
+std::string DecToBinary(int num) {
+  std::string Binary;
+  std::string temp;
+  while (num) {
+    temp += std::to_string(num % 2);
+    num /= 2;
+  }
+  int length = temp.length();
+  if (length < 7) {
+      for (int i = 0; i < 7 - length; i++) {
+          temp += '0';
+      }
+  }
+  for (int i = 6; i >= 0 ; i--) {
+    Binary += temp[i];
+  }
+  return Binary;
+}
+
 class Stack {
     int *arr;
     int sizes;
@@ -31,13 +50,15 @@ public:
 };
 
 int main() {
-    Stack myStack;
-    for (int i = 0; i < 10; i++) {
-        myStack.push(i);
-    }
-    for (int i = 0; i < 10; i++) {
-        std::cout << myStack.top() << " ";
-        myStack.pop();
-    }
+    // Stack myStack;
+    // for (int i = 0; i < 10; i++) {
+    //     myStack.push(i);
+    // }
+    // for (int i = 0; i < 10; i++) {
+    //     std::cout << myStack.top() << " ";
+    //     myStack.pop();
+    // }
+    int num = 15;
+    std::cout << DecToBinary(num);
     return 0;
 }
