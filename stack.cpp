@@ -13,7 +13,6 @@ std::string DecToBinary(int num) {
           temp += '0';
       }
   }
-  int aaa, b;
   for (int i = 6; i >= 0 ; i--) {
     Binary += temp[i];
   }
