@@ -11,4 +11,5 @@ int main() {
     myName[11] = 0;
     std::cout << myName << std::endl;
     return 0;
+    newline
 }
