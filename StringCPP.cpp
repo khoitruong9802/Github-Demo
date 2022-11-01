@@ -12,4 +12,5 @@ int main() {
     std::cout << myName << std::endl;
     return 0;
     newline
+    newline
 }
