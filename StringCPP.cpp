@@ -11,5 +11,5 @@ int main() {
     myName[11] = 0;
     std::cout << myName << std::endl;
     return 0;
-    std::cout << "Raining raining";
+    std::string abc, def;
 }
