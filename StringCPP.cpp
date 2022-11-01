@@ -11,7 +11,6 @@ int main() {
     myName[11] = 0;
     std::cout << myName << std::endl;
     return 0;
-    for (int i = 0; i < 10; i++) {
-        std::cout << "mothaiba";
-    }
+    int a = 10, b = 20;
+    std::cout << a + b;
 }
