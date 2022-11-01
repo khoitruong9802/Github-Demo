@@ -11,5 +11,7 @@ int main() {
     myName[11] = 0;
     std::cout << myName << std::endl;
     return 0;
-    newline
+    for (int i = 0; i < 10; i++) {
+        std::cout << "mothaiba";
+    }
 }
