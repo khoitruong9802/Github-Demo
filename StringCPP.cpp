@@ -11,6 +11,5 @@ int main() {
     myName[11] = 0;
     std::cout << myName << std::endl;
     return 0;
-    int aaa = 19999;
-    std::cout << aaa;
+    std::cout << "Hello World";
 }
